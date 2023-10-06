@@ -39,7 +39,7 @@ body{
     color: white;
     font-size: 20px;
     cursor: pointer;
-    /* display: none;   */
+    /* display: none;  */
 
 } 
 section{
@@ -64,7 +64,7 @@ section{
     
     background-color: rgb(14, 110, 56);
     display:none;
-    
+    padding-left: -20px;
     box-sizing: border-box;
     
 
@@ -82,7 +82,7 @@ section{
 
 }
 .side-bar ul li{
-margin-left: -50px;
+
 margin-right: 15px;
 }
 .dropdown
