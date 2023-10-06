@@ -25,7 +25,7 @@ header
     color: white;
 }
 body{
-    background: green;
+    background: linear-gradient(245.59deg,#4d9559 0%,#38703d 28.53%,#133917 75.52%);
 }
 .navlist
 {
@@ -36,10 +36,25 @@ body{
     margin-left: 60px;
     font-size: 20px;
 }
-#menu-icon {
+/* #menu-icon {
     color: white;
     font-size: 20px;
     cursor: pointer;
-    display: none;
+    display: none;   
+} */
+section{
     
+    margin-top: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
+.hero-text h1{
+    color: white;
+    font-size: 80px;
+}
+.hero-text h5,h4,p{
+    color: white;
+
+}
+
