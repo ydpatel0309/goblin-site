@@ -15,7 +15,6 @@ header
     padding: 33px 9%;
     top: 0;
     right: 0;
-    position: fixed;
     background: transparent;
 }
 .logo
@@ -33,20 +32,22 @@ body{
 }
 .navlist a{
     color: white;
-    margin-left: 60px;
+    margin-left: 20px;
     font-size: 20px;
 }
-/* #menu-icon {
+ #menu-icon {
     color: white;
     font-size: 20px;
     cursor: pointer;
-    display: none;   
-} */
+    /* display: none;   */
+
+} 
 section{
-    
     margin-top: 250px;
     width: 100%;
+    height: 90vh;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 .hero-text h1{
@@ -58,3 +59,43 @@ section{
 
 }
 
+.side-bar
+{
+    
+    background-color: rgb(14, 110, 56);
+    display:none;
+    
+    box-sizing: border-box;
+    
+
+
+}
+.dropdown:hover .side-bar
+{
+    display: block;
+    position: absolute;
+    right: 5%;
+
+}
+.side-bar ul{
+    display: block;
+
+}
+.side-bar ul li{
+margin-left: -50px;
+margin-right: 15px;
+}
+.dropdown
+{
+    display: none;
+
+}
+@media only screen and (max-width: 785px){
+    .dropdown{
+        display: block;
+    }    
+    nav
+    {
+        display: none;
+    }
+}
